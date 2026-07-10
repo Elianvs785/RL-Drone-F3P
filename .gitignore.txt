@@ -1,0 +1,15 @@
+# Ignorer les cerveaux de l'IA (trop lourds)
+*.pth
+*.pt
+
+# Ignorer les dossiers de W&B si tu l'utilises
+wandb/
+
+# Ignorer le cache Python et Jupyter
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
+
+# Ignorer les environnements virtuels
+venv/
+env/
